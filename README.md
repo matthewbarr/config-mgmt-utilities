@@ -19,6 +19,13 @@ Chef: vim, TextMate, sublime text 2, emacs?
   Sublime Text: http://www.youtube.com/watch?v=4VtDj_ar1Xg (video), https://github.com/cabeca/SublimeChef (GitHub)  
   Emacs: chef-mode https://github.com/mpasternacki/chef-mode  
 
+CFEngine:
+  vim - https://github.com/neilhwatson/vim_cf3
+  emacs - https://github.com/cfengine/core/blob/master/contrib/cfengine.el
+  kate - https://github.com/cfengine/core/blob/master/contrib/katepart-cfengine.highlight.xml
+  eclipse - https://cfengine.com/eclipse-cfengine-editor
+  Sublime Text - https://github.com/kebori/sublime-cfengine3
+
 Local Testing  
 Vagrant -   
 VMware  
@@ -34,10 +41,14 @@ Git Dynamic Environments - https://puppetlabs.com/blog/git-workflow-and-puppet-e
 Commit hooks  
 Puppet: erb, pp parser, yaml, https://github.com/adrienthebo/puppet-git-hooks,   
 Chef: fc pre-commit: https://github.com/gregf/chef-git-hooks  
+CFEngine:
+  Subversion: http://worrbase.com/2012/07/11/cfengine-svn-pre-commit.html
+  Git: https://github.com/cfengine/design-center/tree/master/tools/git-pre-commit
 
 Style / Lint tools  
 Puppet: puppet-lint - http://puppet-lint.com/, https://github.com/santana/puppet-cleaner,   
 Chef: tailor, foodcritic  
+CFEngine: cf-promises (with GCC-style warnings)
 
 Testing manifests / recipes   
 Puppet: rspec-puppet, ?cucumber-puppet (discontiued)?  
@@ -46,6 +57,7 @@ Chef: chefspec, minitest-handler, rspec-chef, cucumber-chef, test-kitchen
 Marshalling / Assembling Code & Dependencies  
 Puppet: librarian-puppet - https://github.com/rodjek/librarian-puppet  
 Chef: berkshelf, librarian  
+CFEngine: cf-sketch - https://github.com/cfengine/design-center/wiki/Design-Center-Tools
 
 Continuous Integration  
 Jenkins CI  
@@ -63,6 +75,8 @@ rspec-system https://github.com/puppetlabs/rspec-system
 nagios checks/ plugins  
 
 Chef has knife-flip from Etsy, flips nodes into a test environment  
+
+CFEngine: Remote context class matching using remoteclassesmatching (Enterprise)
 
 Provisioning VM's in the cloud?  
 Chef:  
@@ -85,6 +99,8 @@ Puppet RAL for AWS, OpenStack, CloudStack:
       ….
     } 
 Razor (bare metal)  
+
+CFEngine: https://github.com/cfengine/design-center/tree/master/sketches/cloud
 
 Crowbar has Chef server integrated, although I don’t know that much about it.  
 Joyent also has a Chef “dataset” that they support.  
