@@ -5,6 +5,8 @@ A list of utilities to support configuration management tools.
 
 This was produced by the panelists of the Configuration Mgmt Workflow panel at LOPSA-EAST in 2013.
 
+One of the attendees also took notes:  http://verticalsysadmin.com/blog/uncategorized/highlights-from-lopsa-east-2013-configuration-management-workflows-panel
+
 
 -------
 
