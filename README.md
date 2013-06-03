@@ -38,10 +38,10 @@ All of the above?
 Revision Control : Which tool? Which workflow?   
 Github Flow - http://scottchacon.com/2011/08/31/github-flow.html  
 git-flow - http://nvie.com/posts/a-successful-git-branching-model/  
-Git Dynamic Environments - https://puppetlabs.com/blog/git-workflow-and-puppet-environments/  
+Git Dynamic Environments - https://puppetlabs.com/blog/git-workflow-and-puppet-environments/  , https://github.com/adrienthebo/puppet-git-hooks
 
 Commit hooks  
-Puppet: erb, pp parser, yaml, https://github.com/adrienthebo/puppet-git-hooks,   
+Puppet: erb, pp parser, yaml, https://github.com/puppetlabs/puppetlabs-training-bootstrap/blob/master/modules/fundamentals/files/pre-commit  
 Chef: fc pre-commit: https://github.com/gregf/chef-git-hooks  
 CFEngine:
   Subversion: http://worrbase.com/2012/07/11/cfengine-svn-pre-commit.html
